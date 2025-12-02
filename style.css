@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 2px solid red; */
+    background-color: #121212;
+    color: white;
+}
+
+section{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px;
+    gap: 100px;
+}
+
+
+span{
+    color: dodgerblue;
+    background-color: white;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+.title{
+    font-size: 3rem;
+}
+p{
+    font-size: larger;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.about-text{
+    text-overflow: clip;
+}
