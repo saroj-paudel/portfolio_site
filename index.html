@@ -14,24 +14,40 @@
             margin: 0;
             padding: 0;
             /* border: 2px solid red; */
-            background-color: #276d56;
+            
+        }
+        body{
 
+            background-color: #276d56;
         }
 
         div.center{
+
+            height: 100vh;
+            display: grid;
+                justify-items: center;
+    align-items: center;
+            
+        }
+        div.box{
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
             color: wheat; 
             flex-direction: column; 
             gap: 20px;
+            background-color: rgb(25, 63, 63);
+            width: 27%;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8%;
         }
         .center img{
-            height: 300px;
+            height: 250px;
             border-radius: 50%;
             border: 2px dashed wheat;
         }
+       
         p,h3{ 
             font-family: "Poppins", sans-serif;
             /* font-weight: 600; */
@@ -49,11 +65,14 @@
 </head>
 <body>
     <div class="center">
-        <h1>about me:</h1>
-        <img src="https://avatars.githubusercontent.com/u/171614203?v=4" alt="saroj paudel photo">
+        <div class="box">
+
+            <h1>about me</h1>
+            <img src="https://avatars.githubusercontent.com/u/171614203?v=4" alt="saroj paudel photo">
         <h3>SAROJ PAUDEL</h3>
-        <p>Hi there I am pursuing my Bachelor's in Computer Science from Bhairahawa Multiple Campus.</p>
-        <p>Connect with me on <a href="https://github.com/saroj-paudel">Github</a></p>
+        <p>Hi there, I am pursuing my <i>Bachelor's in <strong>Computer Science</strong></i> from Bhairahawa Multiple Campus.</p>
+        <p>Connect with me on <a href="https://github.com/saroj-paudel">GitHub</a></p>
+    </div>
     </div>
 </body>
 </html>
