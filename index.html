@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Saroj Paudel | Portfolio</title>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+<style>
+* {
+            margin: 0;
+            padding: 0;
+            /* border: 2px solid red; */
+            background-color: #276d56;
 
+        }
+
+        div.center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            color: wheat; 
+            flex-direction: column; 
+            gap: 20px;
+        }
+        .center img{
+            height: 300px;
+            border-radius: 50%;
+            border: 2px dashed wheat;
+        }
+        p,h3{ 
+            font-family: "Poppins", sans-serif;
+            /* font-weight: 600; */
+            font-style: normal;
+        }
+        h1{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a{
+            color: aliceblue;
+        }
+
+
+</style>
 </head>
-
 <body>
-
-    <center><h2 style="color:red;margin-top:20px;">This site is under Construction.</h2></center>
-    <section>
-        <div class="container">
-
-            <h2 class="title">About me</h2>
-        </div>
-
-        <div class="about-me">
-            <p>Hi there, I am <span>Saroj</span></p>
-            <p>&gt; I am a Full Stack Developer.</p>
-        </div>
-    </section>
-    <hr>
-    <section>
-        <h2 class="title">Projects</h2>
-
-        <div class="container">
-            <div class="boxes">
-                <div class="box">
-                    <h3 class="title-text">SmartKishan</h3>
-                    <p class="about-text">An AI powered smart Disease detection system.</p>
-                </div>
-                <div class="box">
-                    <h3 class="title-text">Infix to Postfix</h3>
-                    <p class="about-text">A simple site to understand the conversion of expression using stack.</p>
-                </div>
-                <div class="box">
-                    <h3 class="title-text">Output Generator</h3>
-                    <p class="about-text">Helps to run the C and C++ code effectively and captures the screenshot of the output.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
-    <section>
-        <h2 class="title">Contact</h2>
-        <p>Contact me on <a href="mailto:iamsaroz@outlook.com">iamsaroz@outlook.com</a></p>
-    </section>
-
+    <div class="center">
+        <h1>about me:</h1>
+        <img src="https://avatars.githubusercontent.com/u/171614203?v=4" alt="saroj paudel photo">
+        <h3>SAROJ PAUDEL</h3>
+        <p>Hi there I am pursuing my Bachelor's in Computer Science from Bhairahawa Multiple Campus.</p>
+        <p>Connect with me on <a href="https://github.com/saroj-paudel">Github</a></p>
+    </div>
 </body>
-
 </html>
